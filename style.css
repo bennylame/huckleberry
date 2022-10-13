@@ -33,24 +33,19 @@ header {
   background-color: var(--white);
 }
 
-header .max-width-wrapper {
-  max-width: 450px;
-}
-
-section {
-  box-shadow: 0 -8px 0 0 var(--medium);
+main {
   background-color: var(--light);
-}
-
-section .max-width-wrapper {
-  max-width: 500px;
+  box-shadow: 0 -8px 0 0 var(--medium);
 }
 
 .max-width-wrapper {
-  padding: 4rem;
+  padding: 4rem 0;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .intro-chunk {
+  padding: 1rem;
   background-color: var(--white);
 }
 
@@ -70,7 +65,7 @@ strong {
 .card {
   background-color: var(--white);
   box-shadow: 0 8px 0 0 var(--medium);
-  padding: 8px 1rem;
+  padding: 1rem;
 }
 
 .card h2 {
@@ -81,8 +76,8 @@ strong {
 }
 
 .indented-heading {
-  margin-left: -2rem;
-  padding: 1rem 2rem;
+  margin-left: -1.5rem;
+  padding: 1.5rem;
   max-width: max-content;
   background-color: var(--goldLight);
   box-shadow: 0 8px 0 0 var(--goldDark);
