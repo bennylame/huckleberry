@@ -47,6 +47,7 @@ main {
 .intro-chunk {
   padding: 1rem;
   background-color: var(--white);
+  max-width: 400px;
 }
 
 .intro-chunk h1 {
@@ -72,7 +73,8 @@ strong {
   margin-top: 0;
 }
 
-.card p {
+.card p:last-child {
+  margin-bottom: 0;
 }
 
 .indented-heading {
